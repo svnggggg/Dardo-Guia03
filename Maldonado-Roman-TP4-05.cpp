@@ -13,7 +13,7 @@ void promedio(){
 	cout << "> Porfavor digite su nota 3: " << endl; 
 	cin >> nota3;
 
-	promedio  = nota1, nota2, nota3;
+	promedio  = (nota1 + nota2 + nota3) / 3;
 	cout << "> Su nota final es de: " << promedio << endl;
 }
 
